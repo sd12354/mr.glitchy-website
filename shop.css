@@ -1,0 +1,40 @@
+body {
+  width: 100vw;
+  height: 100vh;
+  background-color: black;
+  font-family: 'Press Start 2P', cursive;
+}
+.nav {
+  position: relative;
+  top: 0px;
+  padding: 20px;
+  justify-content: center;
+}
+.nav button {
+  background-color: transparent;
+  border-style: solid;
+  border-color: rgb(171, 13, 214);
+  margin: 10px;
+  border-radius: 5px;
+  box-shadow: 4px 3px 2px 1px rgb(171, 13, 214);
+  padding: 15px;
+  outline: none;
+  font-weight: 100;
+  transition: .2s ease-in;
+}
+.nav a {
+  text-decoration: none;
+  color: rgb(171, 13, 214);
+  font-family: 'Press Start 2P', cursive;
+  font-size: 1.2rem;
+}
+h1 {
+  text-align: center;
+  justify-content: center;
+  position: relative;
+  color: rgb(216, 89, 255);
+  font-family: 'Press Start 2P', cursive;
+  font-size: 3rem;
+  top: 25%;
+  letter-spacing: 10px;
+}
